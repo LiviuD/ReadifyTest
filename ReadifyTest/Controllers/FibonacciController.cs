@@ -19,23 +19,22 @@ namespace ReadifyTest.Controllers
         //[CacheWebApi(Duration = 1)]
         public HttpResponseMessage Get(int n)
         {
-            if(n > 100)
+            if (n > 92 || n < -92)//bigger than 92 and it will exceed the int64
                 return Request.CreateResponse(HttpStatusCode.BadRequest);
             var response = Request.CreateResponse(HttpStatusCode.OK, ComputeFibonacci(n));
             return response;
         }
 
-        private int ComputeFibonacci(int n)
+        private long ComputeFibonacci(int n)
         {
-            int a = 0;
-            int b = 1;
-            for (int i = 0; i < n; i++)
-            {
-                int temp = a;
-                a = b;
-                b = temp + b;
-            }
-            return a;
+            var numerator = Math.Pow((1.0 + Math.Sqrt(5.0)), n) 
+                            - Math.Pow((1.0 - Math.Sqrt(5.0)), n);
+            var denominator = Math.Pow(2.0, n) * Math.Sqrt(5.0);
+            var result = numerator / denominator;
+
+            var roundedResult = Math.Round(result);
+
+            return (long)roundedResult;
         }
     }
 }
