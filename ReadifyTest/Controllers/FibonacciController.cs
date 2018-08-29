@@ -16,7 +16,7 @@ namespace ReadifyTest.Controllers
             return Request.CreateResponse(HttpStatusCode.NotFound, "The value is requiered");
         }
 
-        [CacheWebApi(Duration = 1)]
+        //[CacheWebApi(Duration = 1)]
         public HttpResponseMessage Get(int n)
         {
             if(n > 100)

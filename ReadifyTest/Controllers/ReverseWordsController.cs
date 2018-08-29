@@ -13,7 +13,7 @@ namespace ReadifyTest.Controllers
 {
     public class ReverseWordsController : BaseApiController
     {
-        [CacheWebApi(Duration = 1)]
+        //[CacheWebApi(Duration = 1)]
         public HttpResponseMessage Get(string sentence)
         {
             var response = Request.CreateResponse(HttpStatusCode.OK, ReverseSentence(sentence));

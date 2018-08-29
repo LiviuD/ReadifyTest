@@ -8,7 +8,7 @@ using System.Web.Http;
 
 namespace ReadifyTest.Controllers
 {
-    public class TriangleTypeController : ApiController
+    public class TriangleTypeController : BaseApiController
     {
         //[CacheWebApi(Duration = 1)]
         public string Get(int a, int b, int c)
