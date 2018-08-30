@@ -1,0 +1,9 @@
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\bin\Release\netstandard2.0\ReadifyTestServices.deps.json
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\bin\Release\netstandard2.0\ReadifyTestServices.dll
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\bin\Release\netstandard2.0\ReadifyTestServices.pdb
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\obj\Release\netstandard2.0\ReadifyTestServices.csprojAssemblyReference.cache
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\obj\Release\netstandard2.0\ReadifyTestServices.csproj.CoreCompileInputs.cache
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\obj\Release\netstandard2.0\ReadifyTestServices.AssemblyInfoInputs.cache
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\obj\Release\netstandard2.0\ReadifyTestServices.AssemblyInfo.cs
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\obj\Release\netstandard2.0\ReadifyTestServices.dll
+C:\Liviu\Projects\ReadifyTest\ReadifyTestServices\obj\Release\netstandard2.0\ReadifyTestServices.pdb
