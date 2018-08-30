@@ -1,2 +1,0 @@
-# ReadifyTest
-ReadifyTest - Knock::Knock
